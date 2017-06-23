@@ -10,8 +10,6 @@
 			<h1> Welcome to AnyCloud site.<h1>
 
 		</div>
-		
-
 		<div id="content">
 			<div id="nav">
 			<h3>Site Links</h3>
@@ -22,7 +20,26 @@
 			</ul>
 			</div>
 			<div id="main">
-				<h2>Good day</h2>
+				<h2>
+					<script language="JavaScript"> 
+					var myDate = new Date(); 
+					if ( myDate.getHours() < 12 )  
+						{ 
+						    document.write("Good Morning!"); 
+						} 
+					else 
+					if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 ) 
+						{ 
+						    document.write("Good Afternoon!"); 
+						} 
+					else 
+					if ( myDate.getHours() > 17 && myDate.getHours() <= 24 ) 
+						{ 
+						    document.write("Good Evening!"); 
+						} 
+					</script> 
+				
+				</h2>
 			<p>Welcome to one stop site to get your cloud deployment and manangement needs taken care.</p>
 			<p>We are team of cloud enthusiasts willing to impart our knowledge to new cloud users.</p>
 			<p>We also have team to design and deploy websites static/dynamic in the best possible ways.</p>
